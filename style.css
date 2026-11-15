@@ -22,10 +22,21 @@ header p a{
   color:var(--crème);
   text-decoration:none;
 }
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:0.5rem 1.5rem;
+  padding:0.8rem 1rem;
+}
 nav a{
   color: #4a2c1a;
   text-decoration:none;
-  margin-left:1.5rem;
+}
+@media(max-width:600px){
+  nav a{
+    font-size:0.9rem;
+  }
 }
 nav a:hover{
   color:#e8c9a0;
